@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+<button onclick="myFunction2()">Sort Numerically</button>
+
+<script>
+const targetnumbers = [ "7", "5", "5", "4" ];
+document.getElementById("demo").innerHTML = targetnumbers;
+
+function myFunction2() {
+  targetnumbers.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = targetnumbers;
+}
+</script>
+
+
+</body>
+</html>
